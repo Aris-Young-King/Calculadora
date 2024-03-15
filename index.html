@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="calculadora/Display.js"></script>
+    <script src="calculadora/Operaciones.js"></script>
+    <script src="calculadora/index.js" defer></script>
+</head>
+
+<body>
+    <main class="contenedor">
+        <div class="contenedor-calculadora">
+            <div class="calculadora__display">
+                <div id="display-valor_anterior">
+                </div>
+                <div id="display-valor_actual">
+                </div>
+            </div>
+            <button onclick="display.borrarTodo()" class="calculadora-col-2">C</button>
+            <button onclick="display.borrar()">&lAarr;</button>
+            <button class="calculadora-operador" value="dividir">%</button>
+            <button class="calculadora-numeros">7</button>
+            <button class="calculadora-numeros">8</button>
+            <button class="calculadora-numeros">9</button>
+            <button class="calculadora-operador" value="multiplicar">X</button>
+            <button class="calculadora-numeros">4</button>
+            <button class="calculadora-numeros">5</button>
+            <button class="calculadora-numeros">6</button>
+            <button class="calculadora-operador" value="restar">-</button>
+            <button class="calculadora-numeros">1</button>
+            <button class="calculadora-numeros">2</button>
+            <button class="calculadora-numeros">3</button>
+            <button class="calculadora-operador" value="sumar">+</button>
+            <button class="calculadora-col-2 calculadora-numeros">0</button>
+            <button class="calculadora-numeros">.</button>
+            <button class="calculadora-operador" value="igual">=</button>
+        </div>
+    </main>
+</body>
+
+</html>
